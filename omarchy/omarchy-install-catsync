@@ -8,7 +8,7 @@
 set -euo pipefail
 
 PREFIX="${CATSYNC_PREFIX:-$HOME/.local}"
-REPO="${CATSYNC_REPO:-cytracon/catsync}"
+REPO="${CATSYNC_REPO:-cytracon/omarchy-cytracon-catsync}"
 WEB="https://github.com/${REPO}"
 
 log() { printf '\033[36m[catsync]\033[0m %s\n' "$*"; }

@@ -136,7 +136,7 @@ fi
 
 # Bar plugin: status + start/stop. Idempotent if already added from the marketplace.
 PLUGIN_ID="io.github.cytracon.catsync"
-PLUGIN_URL="https://github.com/cytracon/omarchy-catsync.git"
+PLUGIN_URL="https://github.com/cytracon/omarchy-cytracon-bar-catsync.git"
 PLUGIN_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/omarchy/plugins/${PLUGIN_ID}"
 if command -v omarchy >/dev/null 2>&1; then
   if [[ -d "$PLUGIN_DIR" ]]; then

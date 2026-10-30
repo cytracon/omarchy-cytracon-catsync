@@ -4,7 +4,7 @@
 # entfernt tote Drive-Bindungen und startet den Daemon wieder.
 #
 # Aufruf auf dem Zielrechner:
-#   curl -fsSL https://raw.githubusercontent.com/cytracon/catsync/main/upgrade-to-2.0.sh -o /tmp/upgrade-catsync.sh
+#   curl -fsSL https://raw.githubusercontent.com/cytracon/omarchy-cytracon-catsync/main/upgrade-to-2.0.sh -o /tmp/upgrade-catsync.sh
 #   bash /tmp/upgrade-catsync.sh
 set -euo pipefail
 
@@ -26,7 +26,7 @@ echo "    Backup liegt in: $DEST"
 
 echo "==> 3/6 catsync 2.0 aus GitHub installieren"
 rm -rf /tmp/catsync2
-git clone --depth 1 https://github.com/cytracon/catsync.git /tmp/catsync2
+git clone --depth 1 https://github.com/cytracon/omarchy-cytracon-catsync.git /tmp/catsync2
 bash /tmp/catsync2/install-local.sh
 
 echo "==> 4/6 config.json anpassen"
